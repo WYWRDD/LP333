@@ -3,8 +3,8 @@ import threeDigit
 import multiple
 import quotient
 
-z = 1
-while z == 1:
+
+while True:
     print("Выберите задание: \n"
           "1)Поиск минимального значения\n"
           "2)Узнать является ли число трехзначным или нет\n"
@@ -20,3 +20,5 @@ while z == 1:
         multiple.multiple()
     elif number == 4:
         quotient.quotient()
+    else:
+        break  
